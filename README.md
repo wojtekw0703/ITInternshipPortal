@@ -1,0 +1,1 @@
+IT Internship Portal is a place where internship offers are stored with redirection to official websites
