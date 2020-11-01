@@ -37,15 +37,7 @@ def find_job_url(soup):
         job_urls.append(complete_url)
     return job_urls
 
-def find_job_id(soup):
-    job_id_list = []
-    for job in soup.find_all('h2', {'class': 'title'}):
-        job_id = job.a.get('id')
-        job_id_list.append(job_id)
-    return job_id_list
-
 list_of_titles = find_job_titles()
 list_of_company = find_company_name()
 list_of_locations = find_job_location()
 list_of_urls = find_job_url(site)
-list_of_id = find_job_id(site)
