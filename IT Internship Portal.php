@@ -1,15 +1,5 @@
-     
-<?php
-    $con=mysqli_connect("localhost","root@","","internship_database");
-    // Check connection
-    if (mysqli_connect_errno())
-      {
-      echo "Failed to connect to MySQL: " . mysqli_connect_error();
-      }
 
 
-    $result = mysqli_query($con,"SELECT * FROM internships");
-    ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -204,34 +194,44 @@ ul {
 <body>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
 <div class="container">
-     
+   
             <div class="row">
-                                                   <?php                         
+                <div class="col-lg-10 mx-auto">
+                    <div class="career-search mb-60">
+
+                    <div class="filter-result">
+                      <?php      
+
+  
+    $con=mysqli_connect("localhost","root@","","internship_database");
+    // Check connection
+    if (mysqli_connect_errno())
+      {
+      echo "Failed to connect to MySQL: " . mysqli_connect_error();
+      }
+ 
+ 
+    $result = mysqli_query($con,"SELECT * FROM internships");
+                     
     while($row = mysqli_fetch_array($result))
       {
         $title= $row['job_title'];
         $company = $row['company_name']; //these are the fields that you have stored in your database table employee
         $location = $row['location'];
-   
-  }?>
- 
-                <div class="col-lg-10 mx-auto">
-                    <div class="career-search mb-60">
-
-                       
-                        <div class="filter-result">
+    
+    ?>
                    
-                            <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
-                                <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+                             <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+                                 <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
 
                                     <div class="img-holder mr-md-4 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
                                     </div>
                                     <div class="job-content">
 
-                                        <h5 class="text-center text-md-left"><?php echo $title; ?></h5>
+                                        <h5 class="text-center text-md-left"> <?php echo $title; ?></h5>
                                         <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
                                             <li class="mr-md-4">
-                                                <i class="zmdi zmdi-pin mr-2"></i> <?php echo $company; ?>
+                                                <i class="zmdi zmdi-pin mr-2"> <?php echo $company; ?></i> 
                                             </li>
                                             <li class="mr-md-4">
                                                 <i class="zmdi zmdi-money mr-2"></i> <?php echo $location; ?>
@@ -246,7 +246,7 @@ ul {
                                     <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light">Apply now</a>
                                 </div>
                             </div>
-      
+  <?php } ?> 
  
                     <!-- START Pagination -->
                     <nav aria-label="Page navigation">
