@@ -215,20 +215,22 @@ ul {
  
  
                          $result = mysqli_query($con,"SELECT * FROM internships");
-                     
+                         
                          while($row = mysqli_fetch_array($result))
                            {
                              $title= $row['job_title'];
                              $company = $row['company_name']; 
                              $location = $row['location'];
-                             $url = $row['url_address']
+                             $url = $row['url_address'];
+
                         ?>
+
                    
                              <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
                                  <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
 
                                     <div class="img-holder mr-md-4 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
-                                      
+                                     <?php echo $company[0]; ?>
                                     </div>
                                     <div class="job-content">
 
