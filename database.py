@@ -6,8 +6,8 @@ import mysql.connector
 def insertVariblesIntoTable(id, job_title, company_name, location, url_address):
     try:
         connection = mysql.connector.connect(host='localhost',
-                                             database='@@@@@',
-                                             user='@@@@@',
+                                             database='internship_database',
+                                             user='root@',
                                              password='')
         cursor = connection.cursor()
         mySql_insert_query = """INSERT INTO internships (id, job_title, company_name, location, url_address) 
