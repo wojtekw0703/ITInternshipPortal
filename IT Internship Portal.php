@@ -26,7 +26,6 @@
       body{
     background:#f5f5f5;
     margin-top:20px;}
-
 /* ===== Career ===== */
 .career-form {
   background-color: #4e63d7;
@@ -201,6 +200,16 @@ ul {
 .mb-30 { 
     margin-bottom: 30px;
 }
+.scrolling-box {
+  scroll-behavior: smooth;
+  padding: 15px;
+  background-color: #eaeaea;
+  display: block;
+  width: 200px;
+  height: 120px;
+  overflow-y: scroll;
+  text-align: center;
+}
 </style>
   </head>
   <body>
@@ -210,12 +219,13 @@ ul {
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
+        
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="http://wojciechwydmuch.com/contact.php" class="nav-link">About</a></li>
             <li class="nav-item"><a href="http://wojciechwydmuch.com/contact.php" class="nav-link">Contact</a></li>
-            <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Get started</span></a></li>
+          <li class="nav-item cta"><a href="#1" class="nav-link"><span>Get started</span></a></li>
           </ul>
         </div>
       </div>
@@ -229,15 +239,12 @@ ul {
               <span class="subheading">Are you looking for an internship?</span>
               <h1 class="mb-3">IT Internship Portal</h1>
               <p>Find a job in IT and gain experience</p>
-              <p><a href="#" class="btn btn-secondary px-4 py-3">Get Started Now</a></p>
+            <a href="#1" class="btn btn-secondary px-4 py-3">Get Started Now</a></li>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    
-
     <section class="ftco-section ftco-partner">
       <div class="container">
         <div class="row">
@@ -259,7 +266,6 @@ ul {
         </div>
       </div>
     </section>
-  
         <section class="ftco-section ftco-counter bg-light img" id="section-counter">
       <div class="container">
         <div class="row justify-content-center">
@@ -281,10 +287,10 @@ ul {
           </div>
         </div>
       </div>
-      
     </section>
-    
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+     <section id="1">
 <div class="container">
   <br>
   <br>
@@ -319,7 +325,7 @@ ul {
 
                         ?>
 
-                   
+                          
                              <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
                                  <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
 
@@ -357,6 +363,7 @@ ul {
                     </nav>
                     <!-- END Pagination -->
                 </div>
+              
             </div>
 
         </div>
@@ -365,20 +372,7 @@ ul {
 <script src="http://netdna.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 
-
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Navigational</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
-              </ul>
-            </div>
+<footer>
 
         <div class="row">
           <div class="col-md-12 text-center">
@@ -388,6 +382,9 @@ ul {
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
+        </div>
+        </div>
+
       </div>
     </footer>
     
