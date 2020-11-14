@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active"><a href="IT Internship Portal.php" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="http://wojciechwydmuch.com/contact.php" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             <li class="nav-item"><a href="http://wojciechwydmuch.com/contact.php" class="nav-link">Contact</a></li>
           <li class="nav-item cta"><a href="#1" class="nav-link"><span>Get started</span></a></li>
           </ul>
