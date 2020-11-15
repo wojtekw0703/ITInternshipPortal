@@ -61,7 +61,7 @@
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4">A few words about IT Internship Portal </h2>
+            <h2 class="mb-4">IT Internship Portal</h2>
            
           </div>
         </div>
@@ -73,7 +73,7 @@
             	</div>
               <div class="media-body pl-4">
                 <h3 class="heading"></h3>
-                <p class="mb-0"></p>
+                <p class="mb-0">This portal is dedicated for unexperienced programmers who want to get first job in IT</p>
               </div>
             </div>      
           </div>
@@ -84,7 +84,7 @@
             	</div>
               <div class="media-body pl-4">
                 <h3 class="heading"></h3>
-                <p class="mb-0"></p>
+                <p class="mb-0">It is the place where the IT internships offers are stored with redirecting to the websites where there are details and possibility to apply </p>
               </div>
             </div>    
           </div>
@@ -95,6 +95,7 @@
             	</div>
               <div class="media-body pl-4">
                 <h3 class="heading"></h3>
+                <p class="mb-0">I am a beginner programmer. This is my hobby project and I want to help people like me, especially during COVID-19 pandemic</p>
                 <p></p>
               </div>
             </div>      
