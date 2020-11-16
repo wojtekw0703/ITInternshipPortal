@@ -192,9 +192,10 @@
 <script type="text/javascript"></script>
 
 <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
       
           
-        </div>
         <div class="row">
           <div class="col-md-12 text-center">
 
