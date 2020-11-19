@@ -30,7 +30,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">IT Internship Portal</a>
+	      <a class="navbar-brand" href="IT Internship Portal.php">IT Internship Portal</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -69,9 +69,6 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-flex align-items-start">
-            	<div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-cloud"></span>
-            	</div>
               <div class="media-body pl-4">
                 <h3 class="heading"></h3>
                 <p class="mb-0">This portal is dedicated for unexperienced programmers who want to get first job in IT</p>
@@ -80,9 +77,6 @@
           </div>
           <div class="col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-flex align-items-start">
-            	<div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-server"></span>
-            	</div>
               <div class="media-body pl-4">
                 <h3 class="heading"></h3>
                 <p class="mb-0">It is the place where the IT internships offers are stored with redirecting to the websites where there are details and possibility to apply </p>
@@ -91,9 +85,6 @@
           </div>
           <div class="col-lg-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services d-flex align-items-start">
-            	<div class="icon d-flex align-items-center justify-content-center">
-            		<span class="flaticon-customer-service"></span>
-            	</div>
               <div class="media-body pl-4">
                 <h3 class="heading"></h3>
                 <p class="mb-0">I am a beginner programmer. This is my hobby project and I want to help people like me, especially during COVID-19 pandemic</p>
