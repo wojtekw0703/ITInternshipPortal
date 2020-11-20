@@ -27,7 +27,7 @@ def insertVariblesIntoTable(id, job_title, company_name, location, url_address):
             connection.close()
             print("MySQL connection is closed")
 
-for i in range(0,len(list_of_titles)-1):
+for i in range(0,len(list_of_titles)-2):
     insertVariblesIntoTable(i,list_of_titles[i],list_of_company[i],list_of_locations[i],list_of_urls[i])
 for k in range(len(list_of_titles),len(ultimate_title_list)-2):
     insertVariblesIntoTable(k, ultimate_title_list[k], ultimate_compname_list[k], "USA", ultimate_jurl_list[k])
