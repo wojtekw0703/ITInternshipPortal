@@ -1,5 +1,0 @@
-
-python:S1542"]Rename function "insertVariblesIntoTable" to match the regular expression ^[a-z_][a-z0-9_]*$.(·÷ïªûÿÿÿÿ8³Ê¹´Ö.
-Mpython:S2115")Add password protection to this database.(Ú³‰úÿÿÿÿ8ê«»áÖ.
-†python:S117"cRename this local variable "mySql_insert_query" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚Š€‡üÿÿÿÿ8³Ê¹´Ö.
-zpython:S117"\Rename this local variable "recordTuple" to match the regular expression ^[_a-z][a-z0-9_]*$.(·ığ«8³Ê¹´Ö.
